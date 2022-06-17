@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Perfect Square</title>
+    <style>
+        .sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+    </style>
+  </head>
+  <body>
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰</button>      
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, dicta accusantium facilis itaque vitae aliquid iure alias consectetur voluptas rem nesciunt, ea obcaecati esse! Molestias doloremque aperiam eum quos consequatur eos, ipsa tenetur mollitia nostrum quas id ab quae iste cupiditate adipisci vel aliquid commodi? Reiciendis praesentium modi perspiciatis iste maiores aspernatur, quos nesciunt nisi optio eligendi deleniti totam iure quas doloribus vero cumque corrupti a quae quibusdam dolorum! Accusamus temporibus ducimus libero hic laborum dolore maiores harum praesentium, optio, voluptatibus excepturi dolorem nihil eum placeat veritatis. Provident sint nulla, repellendus autem placeat possimus, incidunt quo magni repellat suscipit voluptatum non beatae atque repudiandae! Non sed dicta, molestias inventore ratione repudiandae, quas nostrum ipsa voluptate incidunt neque. Suscipit provident doloribus minima amet quos ea ab omnis, molestiae perspiciatis, perferendis distinctio accusantium eaque exercitationem est dolore officiis voluptatem obcaecati reprehenderit. Quod, totam. Itaque atque rerum labore, aspernatur, voluptatibus voluptas ducimus eos voluptatem nulla obcaecati nobis, ratione cupiditate autem dolores inventore eligendi adipisci veritatis quisquam! Sapiente perspiciatis nihil eaque accusantium magni veritatis, quasi perferendis? Perferendis accusantium adipisci maiores nam voluptate corporis, ipsam praesentium totam quia quidem vel odio quas cumque, corrupti tempora ad sequi reprehenderit ducimus? A architecto dolorum dolor veritatis, quae odit veniam, sit, aliquid repudiandae reiciendis nihil illo iure voluptatem deleniti sapiente minus enim et officiis quo. Voluptates quibusdam officiis tempora, commodi iure totam alias quaerat repellat, fuga ex quam ipsa exercitationem labore nemo aperiam corporis impedit eum voluptas temporibus aspernatur molestias. Itaque cumque quidem ipsam quo vitae perferendis molestiae, accusantium consequuntur esse, ab quae, error hic aspernatur id. Aperiam laborum harum quaerat temporibus fugiat minus eligendi quo, atque expedita laboriosam explicabo excepturi a ratione iusto dignissimos eius deserunt pariatur modi autem voluptates quod necessitatibus placeat veritatis perferendis! Magnam voluptatibus quis repudiandae odio aut sint nam deleniti amet, quos dolores tenetur optio id sapiente fugiat placeat accusantium, eum distinctio iusto maxime voluptatum! Officia, assumenda. Nihil adipisci aliquam, enim excepturi neque, praesentium dicta consequatur asperiores reiciendis, fuga non dolores impedit eaque ducimus. Quasi ullam necessitatibus ipsum at provident vitae quas accusamus, sit itaque impedit aperiam consequuntur voluptate, quae qui magni cumque? Nulla enim illum cum expedita fugit, dicta numquam dolor rerum quasi deserunt, iste minus ab adipisci amet. Libero atque deleniti hic cupiditate. Voluptates a beatae quis suscipit adipisci fuga, atque recusandae molestias dolorem eligendi excepturi ipsa, ea tempora deserunt fugit magnam voluptatum magni iure in. Dicta similique ipsum ratione atque, quisquam animi, possimus consequuntur, a reprehenderit iure quae optio numquam illum et! Officia doloribus amet quae ipsam, doloremque libero aliquam repellendus quas ipsa, voluptate sapiente harum autem, voluptatum obcaecati vitae sint ullam dignissimos! Inventore voluptates fugit debitis sed corrupti, totam, nisi maxime quos aliquid natus asperiores nihil, velit cupiditate cum. Obcaecati rerum quaerat voluptate est eum! Cupiditate explicabo quisquam quia possimus ipsum iste illo inventore laboriosam, est, facilis, accusantium odio illum! Corporis laboriosam modi delectus nemo consequatur nesciunt libero! Eveniet dolore suscipit, quas magnam eius iusto dolorem explicabo voluptatum quis, sapiente corrupti sequi deleniti autem minima aperiam cum illo neque! Vel, nobis culpa ab iste necessitatibus minima obcaecati adipisci deserunt ipsum, quibusdam voluptas provident architecto? Repellendus assumenda earum repellat pariatur consequatur dignissimos libero, minima quo inventore id velit, dolorem dolor labore accusantium qui at iusto dolores a saepe quas beatae nemo? Voluptas exercitationem nisi nihil provident dignissimos, quos eaque sint, beatae quibusdam amet incidunt illo numquam ratione natus ducimus sequi esse labore, possimus repellendus ipsam omnis tenetur fugit? Dolorum, eum ipsum quo totam facilis omnis reiciendis qui tempora earum magni iste nisi quidem aliquid aut sit eaque officiis nesciunt possimus debitis. Dolor quos similique placeat totam error ea quo quas voluptatem, qui, fugiat corporis unde praesentium et quaerat aut! Quidem exercitationem iure, et qui beatae obcaecati delectus in eligendi dolores! Ea nobis laudantium soluta neque animi, placeat tempore in ad natus voluptate commodi, provident aut fugit sed nesciunt laboriosam? Minus a dicta officiis quod fuga sunt assumenda architecto quo rem rerum, laudantium dignissimos consequuntur odit possimus sed voluptatum magni quis! Vel neque eligendi tempora dicta quasi similique voluptates accusantium a veritatis. Perspiciatis voluptas rem quas, eligendi iure ad porro architecto voluptate laboriosam delectus repellat! Eius praesentium quis deleniti, exercitationem provident quod. Provident quo velit inventore incidunt facere maxime a, reprehenderit eligendi similique placeat, dolorem, est magnam voluptatum quibusdam repellat? Delectus nobis natus eaque, odit labore veniam molestias culpa laboriosam saepe ipsum eos quaerat consequuntur accusamus enim quasi hic expedita aperiam, itaque sunt asperiores rerum magnam praesentium temporibus non? Sed possimus deleniti voluptatem, recusandae placeat veniam nesciunt quas eveniet, esse a, consequuntur illum facilis saepe inventore sit rerum magnam at vitae amet aspernatur expedita. Doloremque praesentium corporis illo temporibus nostrum neque non aliquam, harum, debitis aliquid officia, quod eum voluptatum nam! Neque, repellat provident similique ut voluptatum incidunt porro numquam praesentium unde quas. Eaque quidem doloribus quam deleniti nulla aut quasi.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  
+  </body>
+</html>
